@@ -163,9 +163,12 @@ a:after{
     margin-top: 150px;
  }
 
- #locations{
+ #locations {
      padding-top: 50px;
- }
+     h1{
+     font-size: 3.5rem;
+     }
+     }
  .lbox{
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*80ffvx*_ga*MTkyOTM1MDczNy4xNjQ4NjU0ODE2*_ga_3LRZM6TM9L*MTY1MjgwMzIxMy41NC4xLjE2NTI4MDMyMTUuNTg.);
     background-repeat: no-repeat;
@@ -186,9 +189,25 @@ a:after{
     background-color: black;
     opacity: .8;
     text-align: center;
+     h3{
+        margin-top: 40px;
+        font-size: 2rem;
+     }
+     h4{
+        margin: 0;
+     }
 }
 .contact{
     text-align: center;
+    margin-top: 150px;
+    h1{
+        font-size: 4rem;
+        font-family: "Seaweed Script", cursive;
+    }
+    h4{
+        font-size: 1.5rem;
+        
+    }
 }
 
 footer{
