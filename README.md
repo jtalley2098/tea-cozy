@@ -1,2 +1,2 @@
-Learning git hub it looks like
-# tea-cozy-project
+My first Website, strickly HTML and CSS
+
