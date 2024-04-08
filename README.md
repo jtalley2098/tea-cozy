@@ -1,2 +1,2 @@
-Learning git hub it looks like
+My first Website, strickly HTML and CSS
 
