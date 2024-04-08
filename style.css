@@ -1,6 +1,7 @@
 
 body{
     color: seashell;
+    
 }
 main {
     background-color: black;
@@ -18,8 +19,8 @@ header{
     height: 69px;
     width: 100%;
     border-bottom: 1px solid seashell;
-    position:static;
     background-color: black;
+    
 }
 .tc{
     margin: 10px;
@@ -27,7 +28,37 @@ header{
     align-content: center;
     
 }
-.mission{
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+       li{
+        margin-right: 40px;
+        font-size: 1.2rem;
+       }
+       
+    
+     
+    
+     
+    
+     a:link {
+        color: seashell; /* Default color for unvisited links */
+    }
+    
+     a:visited {
+        color: gray; /* Color for visited links */
+    }
+    
+     a:hover {
+        color: aliceblue; /* Color when hovering over a link */
+    }
+    
+     
+    
+}
+/*.mission{
     color: white;
     position: static;
     Border: 1px solid black;
@@ -67,7 +98,7 @@ a:before{
 }
 a:after{
     color: gray;
-}
+}*/
 
 
 .links{
@@ -118,27 +149,30 @@ a:after{
  }
  .month{
      padding-top: 150px;
-    display: block;
-    justify-content: center;
-
+     display: block;
+     justify-content: center;
+    
+    h3{
+        font-size: 25px;
+        text-align: center;
+        margin-top: 0px;
+        font-family: "patrick hand", cursive;;
+     }  
  }
  h1{
-     font-size: 35px;
-     text-align: center;
-     
- }
- 
- h3{
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
-    margin-top: 0px;
- }  
+    
+}
+ 
+ 
+ 
  
  
  
  
  .tea{
-    font-family: patrick hand, cursive;
+    font-family: "patrick hand", cursive;
     width: 1000px;
     max-height: auto;
     display: flex;
