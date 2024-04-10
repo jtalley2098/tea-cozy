@@ -140,6 +140,9 @@ nav{
    /* border: solid seashell 3px;*/
     
  }
+ .cup{
+    display: none;
+ }
 
  
   .tea-type img{
@@ -215,7 +218,7 @@ footer{
 
      }
 }
-@media (max-width: 480px) and (min-width: 320px) {
+@media (max-width: 480px) {
     
     body{
         display: block;
@@ -235,9 +238,78 @@ footer{
     height: 75px;
     margin: 25px 0 0 0;
    }
-   #type{
-    margin: 0 -100% 0 33%;
+   .month{
+    display:block;
+    width: 100%;
    }
+   .tea{
+    border-top: solid seashell 3px;
+    width: 1000px;
+    display:block;
+    margin: -80% 25% 25% 25%;
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+    }
+    h3{
+        font-size: 3.5rem;
+    }
+}
+   .tea-type img{
+    width: 100%;
+    height: auto;
+   }
+   .bbox{
+    background-image: none;
+    margin: 25% auto 25% auto;
+    height: 700px;
+    width: 1200px;
+    display: block;
+    color: seashell;
+    
+}
+.our{
+    opacity: unset;
+}
+.our h2 {
+    font-size: 6rem;
+}
+.hand{
+    font-size: 3.8rem;
+}
+.lbox{
+    display: block;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto 0 auto;
+    background-image: none;
+    color: seashell;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.tbox{
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-color: black;
+    opacity: unset;
+    text-align: center;
+    margin:0;
+    color: seashell;
+    h3{
+        margin-top: 40px;
+        font-size: 3.5rem;
+    }
+    h4{
+        font-size: 2rem;
+        margin: 0;
+    }
+
+   
+}
 }
 
    
