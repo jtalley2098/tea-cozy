@@ -1,12 +1,19 @@
 
 body{
     color: seashell;
-    
-}
-main {
     background-color: black;
     width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+   
+    
+    
 }
+
 
 header{
     height: 69px;
@@ -16,7 +23,7 @@ header{
     
 }
 .tc{
-    margin: 10px;
+    margin: 10px 10px 10px 10px;
     height: 50px;
     align-content: center;
     
@@ -27,16 +34,10 @@ nav{
     justify-content: space-evenly;
     
        li{
-        margin-right: 40px;
-        font-size: 1.2rem;
+        margin-left: 40px;
+        
        }
-       
-    
-     
-    
-     
-    
-     a:link {
+    a:link {
         color: seashell; /* Default color for unvisited links */
     }
     
@@ -101,8 +102,9 @@ nav{
  }
  .month{
      padding-top: 150px;
-     display: block;
+     display:flex;
      justify-content: center;
+     /*border: solid seashell 3px;*/
     
     h3{
         font-size: 25px;
@@ -111,8 +113,9 @@ nav{
         font-family: "patrick hand", cursive;;
      }  
  }
+ 
  h1{
-    font-size: 35px;
+    font-size: 3.5rem;
     text-align: center;
     
 }
@@ -125,15 +128,16 @@ nav{
  
  .tea{
     font-family: "patrick hand", cursive;
-    width: 1000px;
+    width: 80%;
     max-height: auto;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
-    align-content: center;
-    margin-left: 15%;
+   /* align-content: center;*/
+    margin-left: 0;
     margin-top: 25px;
-    column-gap:40px;
+    column-gap:60px;
+   /* border: solid seashell 3px;*/
     
  }
 
@@ -141,7 +145,7 @@ nav{
   .tea-type img{
      height: 200px;
      width: 300px;
-     gap: 10px;
+     
      
  }
  
@@ -161,8 +165,8 @@ nav{
     background-position: center;
     width: 1200px;
     height: 400px;
+    margin: 0 0 0 8%;
     display:flex;
-    margin-left: 8%;
     justify-content: center;
     align-items: center;
     gap: 60px;
@@ -211,8 +215,31 @@ footer{
 
      }
 }
-
+@media (max-width: 480px) and (min-width: 320px) {
+    
+    body{
+        display: block;
+        
+        
+    }
+   header{
+    width: 100%; 
+    height: 100px;
+    border-bottom: hidden;
    
+   }
+   nav{
+    display: none;
+   }
+   .tc{
+    height: 75px;
+    margin: 25px 0 0 0;
+   }
+   #type{
+    margin: 0 -100% 0 33%;
+   }
+}
+
    
 
  
