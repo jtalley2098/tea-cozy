@@ -7,11 +7,6 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    
-   
-    
-    
 }
 
 
@@ -32,11 +27,9 @@ nav{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
-       li{
+    li{
         margin-left: 40px;
-        
-       }
+    }
     a:link {
         color: seashell; /* Default color for unvisited links */
     }
@@ -48,16 +41,10 @@ nav{
      a:hover {
         color: aliceblue; /* Color when hovering over a link */
     }
-    
-     
-    
 }
-
-
 .links{
     font-size: 20px;
     display: flex;
-    
     margin-left: 800px;
     margin-bottom: 100px;
     margin-top: -55px;
@@ -75,7 +62,7 @@ nav{
      width: 1200px;
      margin: 40px auto 40px auto;
      display: flex;
- }
+    }
   .our{
      height: fit-content;
      width: 1200px;
@@ -85,48 +72,35 @@ nav{
       h2{
         font-size: 3.5rem;
       }
-     
-    
- }
- .hand {
+     }
+  .hand {
      font-family: patrick hand, cursive;
      font-size: 1.85rem;
      white-space: pre-wrap;
      text-align: center;
      padding: 0 0 20px 0;
-      
- }
+    }
  h2{
      text-align: center;
      font-size: 35px;
- }
+    }
  .month{
      padding-top: 150px;
      display:flex;
      justify-content: center;
-     /*border: solid seashell 3px;*/
-    
-    h3{
+     /*border: solid seashell 3px;*/    
+     h3{
         font-size: 25px;
         text-align: center;
         margin-top: 0px;
         font-family: "patrick hand", cursive;;
      }  
- }
- 
+   }
  h1{
     font-size: 3.5rem;
     text-align: center;
-    
-}
- 
- 
- 
- 
- 
- 
- 
- .tea{
+    }
+.tea{
     font-family: "patrick hand", cursive;
     width: 80%;
     max-height: auto;
@@ -138,19 +112,14 @@ nav{
     margin-top: 25px;
     column-gap:60px;
    /* border: solid seashell 3px;*/
-    
- }
- .cup{
+    }
+.cup{
     display: none;
  }
-
- 
-  .tea-type img{
+.tea-type img{
      height: 200px;
      width: 300px;
-     
-     
- }
+    }
  
  .location-box{
     margin-top: 150px;
@@ -166,7 +135,7 @@ nav{
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*80ffvx*_ga*MTkyOTM1MDczNy4xNjQ4NjU0ODE2*_ga_3LRZM6TM9L*MTY1MjgwMzIxMy41NC4xLjE2NTI4MDMyMTUuNTg.);
     background-repeat: no-repeat;
     background-position: center;
-    width: 1200px;
+    width: 83%;
     height: 400px;
     margin: 0 0 0 8%;
     display:flex;
@@ -222,9 +191,7 @@ footer{
     
     body{
         display: block;
-        
-        
-    }
+     }
    header{
     width: 100%; 
     height: 100px;
@@ -379,13 +346,15 @@ footer{
     margin: 25px 0 0 0;
    }
    .bbox{
+    display: flex;
     background-image: none;
-    margin: 25% auto 25% auto;
-    height: 700px;
+    margin: 25% auto 25% 0;
+   
+    height: auto;
     width: 1200px;
     display: block;
     color: seashell;
-    
+   
 
 }
 .bbox h2{
@@ -408,11 +377,12 @@ footer{
         justify-content: center;
 }
 .tea{
+    
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    width: 100%;
-    margin-left: 50%;
+    width: fit-content;
+    margin: 0 0 0 62%;
 }
 
 .tea-type{
@@ -431,10 +401,82 @@ footer{
     font-size: 2rem;
     margin: 0;
 }
+.lbox{
+    width: 140%;
+    height: 400px;
+    margin: 0 0 0 8%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+ }
+ .tbox{
+    display: inline-block;
+    height: 80%;
+    width: 31%;
+    background-color: black;
+    opacity: .8;
+    text-align: center;
+     h3{
+        margin-top: 60px;
+        font-size: 2rem;
+     }
+     h4{
+        margin: 0;
+     }
+}
+.address{
+   
+    font-size: 1.5rem;
+    margin: 18% 0 0 0 ;
+    line-height: .3;
+}
+.location-box{
+    margin: 30% 0 0 55%;
+}
+.contact{
+    text-align: center;
+    margin: 35% 0 0 57%;
+    h1{
+        font-size: 4rem;
+        font-family: "Seaweed Script", cursive;
+    }
+    h4{
+        font-size: 1.5rem;
+        
+    }
+}
 
- 
+footer{
+    width: 155%;
+    margin-top: 100px;
+    border-top: solid white 1px;
+    text-align: left;
+    height: 60px;
+     p{
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 18px;
+        font-size: 15px;
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+
+     }
+}
  
 }
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* Styles for tablets in portrait mode */
+    
+  }
+  
+  @media (min-width: 1024px) and (max-width: 1366px) {
+    /* Styles for tablets in landscape mode */
+  }
+  
+
 
 
 
