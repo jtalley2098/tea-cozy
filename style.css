@@ -45,13 +45,13 @@ nav{
 .links{
     font-size: 20px;
     display: flex;
-    margin-left: 800px;
-    margin-bottom: 100px;
-    margin-top: -55px;
+    margin: -55px 10px 0 800px;
+    /*margin-bottom: 100px;*/
+   /* margin-top: -55px;*/
     cursor: pointer;
     text-decoration: underline;
     list-style: none;
-    position: absolute;
+    /*position: absolute;*/
     }
  .bbox{
      background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ws614r*_ga*MTkyOTM1MDczNy4xNjQ4NjU0ODE2*_ga_3LRZM6TM9L*MTY1MjY3MzcxMy40OC4xLjE2NTI2NzQ4NzUuNTg.);
@@ -59,7 +59,7 @@ nav{
      background-position: center;
      
      height: 700px;
-     width: 1200px;
+     width: 80%;
      margin: 40px auto 40px auto;
      display: flex;
     }
@@ -177,6 +177,7 @@ footer{
     border-top: solid white 1px;
     text-align: left;
     height: 60px;
+    
      p{
         display: inline-block;
         margin-left: 10px;
@@ -467,14 +468,52 @@ footer{
  
 }
 /* Tablet styles */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 770px) and (max-width: 1024px) {
     /* Styles for tablets in portrait mode */
     
   }
   
   @media (min-width: 1024px) and (max-width: 1366px) {
     /* Styles for tablets in landscape mode */
+    body{
+        margin: 0 0 0 0;
+    }
+    header{
+        width: 100%;
+        .tc{
+            margin: .8% 0 0 9%;
+        }
+    }
+    .links{
+        margin-bottom: unset;
+        margin: -42px 0 0 50%;
+    }
+    .bbox{
+        margin: 40px 0 40px 14%;
+    }
+    .tea{
+        margin-left:8%;
+    }
+    .location-box{
+        margin-left: 7.5%;
+    }
+    .lbox{
+            margin-left: 12%;
+    } 
+    }
+    .contact{
+        margin-left:8%;
+    }
+    footer{
+      p{
+        margin-left: 8%;
+      }
   }
+
+
+   
+  
+  
   
 
 
